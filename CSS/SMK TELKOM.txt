@@ -1,0 +1,55 @@
+html=
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>SMK Telkom Malang</title>
+    <link rel="stylesheet" href="style_telkom.css" />
+    <!-- untuk menghubungkan ke file css-->
+    <link rel="icon" href="fav.png" />
+    <!-- untuk menampilkan icon-->
+</head>
+<body>
+    <div class="menu">
+        <ul>
+            <li><a href="#">PROFIL</a></li>
+            <li><a href="#">PROGRAM STUDI</a></li>
+            <li><a href="#">TESTIMONIAL</a></li>
+            <li><a href="#">PPDB</a></li>
+            <li><a href="#">BERITA</a></li>
+            <li><a href="#">PROGRAM KAMI</a></li>
+        </ul>
+    </div>
+</body>
+</html>
+
+css=
+div.menu{
+    width: 100%;
+    background: red;
+}
+
+div.menu ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0; /*jarak antara border dengan konten(jarak dalam) */
+    margin: 0; /*jarak antara tiap elemen(jarak luar) */
+}
+
+div.menu li{
+    float: right; /*posisi element dari kanan */
+}
+
+div.menu li a{
+    text-decoration: none; /*menghilangkan garis bawah pada link */
+    color: #fff; /*warna pada font link */
+    text-align: center;
+    padding: 18px 20px; 
+    font-size: 15px;
+    display: block;
+}
+
+div.menu li a:hover{
+    background: #fff;
+    color: red;
+    border: 2px solid red;
+}
